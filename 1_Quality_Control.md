@@ -1,3 +1,11 @@
+# Table of contents
+
+- [Quality Check of fastq sequences using fastqc](#quality-check-of-fastq-sequences-using-fastqc)
+  - [Create a conda environment with fastqc](#create-a-conda-environment-with-fastqc)
+- [Pre-processing of fastq sequences using fastp](#pre-processing-of-fastq-sequences-using-fastp)
+  - [Create a conda environment with fastp](#create-a-conda-environment-with-fastp)
+- [Interactive MultiQC report from fastqc](#interactive-multiqc-report-from-fastqc)
+  - [Create a conda environment with multiqc](#create-a-conda-environment-with-multiqc)
 
 # Quality Check of fastq sequences using fastqc
 *Prerequisites : Miniconda/Anaconda* , Mamba (Better handling of installation than native conda)
