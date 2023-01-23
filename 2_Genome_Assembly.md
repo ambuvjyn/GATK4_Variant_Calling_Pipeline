@@ -1,3 +1,8 @@
+# Table of contents
+
+- [Indexing the reference of the sample using BWA](#indexing-the-reference-of-the-sample-using-bwa)
+- [Local Alignment using BWA-MEM and mapping to the Reference genome](#local-alignment-using-bwa-mem-and-mapping-to-the-reference-genome)
+
 # Indexing the reference of the sample using BWA
 
 `bwa index reference.fa`
