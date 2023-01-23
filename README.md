@@ -13,9 +13,9 @@ Base Quality Score Recalibration (BQSR) is an important step for accurate varian
 
 1. [Quality Control](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/main/1_Quality_Control.md)
 
-2. [Genome Assembly](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/aaa9fc25009f73856b90c3b91bb7b98a713d96b4/2_Genome_Assembly.mdhttp:// "Genome Assembly")
+2. [Genome Assembly](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline)
 
-3. [Variant Calling](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/aaa9fc25009f73856b90c3b91bb7b98a713d96b4/3_Variant%20Calling.mdp:// "Variant Calling")
+3. [Variant Calling](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/main/2_Genome_Assembly.md)
 
 4. [Annotation](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/aaa9fc25009f73856b90c3b91bb7b98a713d96b4/4_Annotation.md:// "Annotation")
 
