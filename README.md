@@ -11,7 +11,7 @@ The pipeline employs the Genome Analysis Toolkit 4 (GATK4) to perform variant ca
 
 Base Quality Score Recalibration (BQSR) is an important step for accurate variant detection that aims to minimize the effect of technical variation on base quality scores (measured as Phred scores). As with the original pipeline (link), this pipeline assumes that a ‘gold standard’ set of SNPS and indels are not available for BQSR.  In the absence of a gold standard the pipeline performs an initial step detecting variants without performing BQSR, and then uses the identified SNPs as input for BQSR before calling variants again. This process is referred to as bootstrapping and is the procedure recommended by the Broad Institute’s best practices for variant discovery analysis when a gold standard is not available.
 
-1. [Quality Control](http://https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/aaa9fc25009f73856b90c3b91bb7b98a713d96b4/1_Quality_Control.md "Quality Control")
+1. [Quality Control](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/main/1_Quality_Control.md)
 
 2. [Genome Assembly](https://github.com/ambuvjyn/GATK4_Variant_Calling_Pipeline/blob/aaa9fc25009f73856b90c3b91bb7b98a713d96b4/2_Genome_Assembly.mdhttp:// "Genome Assembly")
 
