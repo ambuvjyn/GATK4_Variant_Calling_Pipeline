@@ -1,3 +1,12 @@
+# Table of contents
+
+- [Annotation using snpEff](#annotation-using-snpeff)
+  - [gatk Variants To Table : Extract fields from a VCF file to a tab-delimited table](#gatk-variants-to-table--extract-fields-from-a-vcf-file-to-a-tab-delimited-table)
+    - [Extracting chromosome name and annotation from the result](#extracting-chromosome-name-and-annotation-from-the-result)
+    - [Extracting only chromosome name from the result](#extracting-only-chromosome-name-from-the-result)
+    - [Extracting chromosome name, position, ID, reference and the alternate aminoacid of SNP, quality, filter and information if its passed as SNP or not from the result](#extracting-chromosome-name-position-id-reference-and-the-alternate-aminoacid-of-snp-quality-filter-and-information-if-its-passed-as-snp-or-not-from-the-result)
+  - [VEP determines the effect of your variants (SNPs, insertions, deletions, CNVs or structural variants) on genes, transcripts, and protein sequence, as well as regulatory regions.](#vep-determines-the-effect-of-your-variants-snps-insertions-deletions-cnvs-or-structural-variants-on-genes-transcripts-and-protein-sequence-as-well-as-regulatory-regions)
+
 # Annotation using snpEff
 Here we have to specify the sample_name which corresponds to your sample from snpEff database.
 
