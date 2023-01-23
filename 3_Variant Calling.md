@@ -1,3 +1,34 @@
+# Table of contents
+
+- [GATK Mark Duplicates is from Picard : This tool locates and tags duplicate reads in a BAM or SAM file](#gatk-mark-duplicates-is-from-picard--this-tool-locates-and-tags-duplicate-reads-in-a-bam-or-sam-file)
+- [picard Collect Alignment Summary Metrics : Produces a summary of alignment metrics from a SAM or BAM file](#picard-collect-alignment-summary-metrics--produces-a-summary-of-alignment-metrics-from-a-sam-or-bam-file)
+- [picard Collect Insert Size Metrics : This tool provides useful metrics for validating library construction including the insert size distribution and read orientation of paired-end libraries.](#picard-collect-insert-size-metrics--this-tool-provides-useful-metrics-for-validating-library-construction-including-the-insert-size-distribution-and-read-orientation-of-paired-end-libraries)
+- [samtools depth – computes the read depth at each position or region](#samtools-depth--computes-the-read-depth-at-each-position-or-region)
+- [samtools index – indexes SAM/BAM/CRAM files](#samtools-index--indexes-sambamcram-files)
+- [gatk HaplotypeCaller : It is capable of calling SNPs and indels simultaneously via local de-novo assembly of haplotypes in an active region.](#gatk-haplotypecaller--it-is-capable-of-calling-snps-and-indels-simultaneously-via-local-de-novo-assembly-of-haplotypes-in-an-active-region)
+- [Isolating SNPs](#isolating-snps)
+  - [gatk Select Variants : Select a subset of variants from a VCF file](#gatk-select-variants--select-a-subset-of-variants-from-a-vcf-file)
+- [Isolating InDels](#isolating-indels)
+- [Filtering SNPs](#filtering-snps)
+  - [gatk Variant Filtration : Filter variant calls based on INFO and/or FORMAT annotations](#gatk-variant-filtration--filter-variant-calls-based-on-info-andor-format-annotations)
+- [Filtering InDels](#filtering-indels)
+- [Subsetting SNPs](#subsetting-snps)
+  - [gatk SelectVariants : Select a subset of variants from a VCF file](#gatk-selectvariants--select-a-subset-of-variants-from-a-vcf-file)
+- [Subsetting InDels](#subsetting-indels)
+- [Isolating SNPs](#isolating-snps)
+  - [gatk Select Variants : Select a subset of variants from a VCF file](#gatk-select-variants--select-a-subset-of-variants-from-a-vcf-file)
+- [Isolating InDels](#isolating-indels)
+- [Filtering SNPs](#filtering-snps)
+  - [gatk Variant Filtration : Filter variant calls based on INFO and/or FORMAT annotations](#gatk-variant-filtration--filter-variant-calls-based-on-info-andor-format-annotations)
+- [Filtering InDels](#filtering-indels)
+- [Subsetting SNPs](#subsetting-snps)
+  - [gatk SelectVariants : Select a subset of variants from a VCF file](#gatk-selectvariants--select-a-subset-of-variants-from-a-vcf-file)
+- [Subsetting InDels](#subsetting-indels)
+- [Subsetting InDels](#subsetting-indels)
+- [Filtering SNPs](#filtering-snps)
+  - [gatk Variant Filtration : Filter variant calls based on INFO and/or FORMAT annotations](#gatk-variant-filtration--filter-variant-calls-based-on-info-andor-format-annotations)
+- [Filtering InDels](#filtering-indels)
+
 ## GATK Mark Duplicates is from Picard : This tool locates and tags duplicate reads in a BAM or SAM file
 
 `gatk MarkDuplicates -I S1_sorted_reads.bam -M S1_dedup_metrics.txt -O S1_sorted_dedup_reads.bam`
