@@ -70,7 +70,7 @@ Here we have to specify the sample_name which corresponds to your sample from sn
 ------------
 ## VEP determines the effect of your variants (SNPs, insertions, deletions, CNVs or structural variants) on genes, transcripts, and protein sequence, as well as regulatory regions.
 
-*Here we have to specify the sample_name which corresponds to your sample from VEP database.*
+*Here we have to specify the sample_name which corresponds to your sample from VEP database. Also make sure to specify the correct version of cache- i have given 55 as an example*
 
 `vep -i S1_vep.vcf -o S1_vep_res.txt --species sample_name --cache --genome --cache_version 55 --dir_cache ./`
 
