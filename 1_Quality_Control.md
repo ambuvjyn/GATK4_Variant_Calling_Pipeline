@@ -43,4 +43,4 @@
 
 `multiqc . -o MultiQC`
 
-*MultiQC Result doesnot show fastp as there is no adapters present.*
+*In this example MultiQC Result doesnot show fastp as there is no adapters present.*
