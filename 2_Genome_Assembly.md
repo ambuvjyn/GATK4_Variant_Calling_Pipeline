@@ -18,7 +18,7 @@
 
 `bwa mem -M -K 100000000 -t 40 -Y -R '@RG\tID:Sample6_R1\tLB:Sample5_R1\tPL:ILLUMINA\tPM:HISEQ\tSM:Sample6_R1' Reference/reference.fa out.Sample6_R1.fq.gz out.Sample6_R2.fq.gz > Sample6_aligned_reads.sam`
 
-Sorting SAM file by cordinate and converting to BAM
+Sorting SAM file by cordinate and converting to BAM using Picard
 
 `picard SortSam INPUT=Sample1_aligned_reads.sam OUTPUT=Sample1_sorted_reads.bam SORT_ORDER=coordinate`
 
